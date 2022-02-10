@@ -1,0 +1,12 @@
+sno=int(input("Enter sno:"))
+sname=input("Enter:")
+maths=int(input("maths:"))
+physics=int(input("physics:"))
+telugu=int(input("telugu:"))
+FC=int(input("FC:"))
+English=int(input("English:"))
+computer=int(input("computer:"))
+if maths>=40 and physics>=40 and telugu>=40 and FC>=40 and English>=40 and computer>=40:
+    print("PASS")
+else:
+    print("FAIL")
